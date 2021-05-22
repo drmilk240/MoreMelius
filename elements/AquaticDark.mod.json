@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay.png",
+          "use1Xscale": false,
+          "name": "overlay.png",
+          "x": -84,
+          "y": -49
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "AquaticDarkDisplayOverlayIngame"
+    }
+  }
+}
