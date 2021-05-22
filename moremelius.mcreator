@@ -355,7 +355,7 @@
       "name": "AquaticDarkDisplayOverlayIngame",
       "type": "procedure",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "aquatic_dark_display_overlay_ingame",
