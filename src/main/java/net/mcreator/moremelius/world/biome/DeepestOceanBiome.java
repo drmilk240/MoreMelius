@@ -46,6 +46,9 @@ public class DeepestOceanBiome extends MoremeliusModElements.ModElement {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-15922367).setWaterColor(-15658419).setWaterFogColor(-16382173)
 						.withSkyColor(-15922367).withFoliageColor(-13937622).withGrassColor(-13937622)
+						.setAmbientSound(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+										.getValue(new ResourceLocation("moremelius:underwaterambience")))
 						.setMoodSound(new MoodSoundAmbience((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("ambient.underwater.loop.additions.ultra_rare")), 500, 8, 2))
 						.build();

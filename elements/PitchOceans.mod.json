@@ -53,7 +53,7 @@
     },
     "rainingPossibility": 1.0,
     "temperature": 0.5,
-    "baseHeight": -3.9999999999999996,
+    "baseHeight": -2.5,
     "heightVariation": 0.0,
     "biomeType": "COOL",
     "spawnBiome": false,
