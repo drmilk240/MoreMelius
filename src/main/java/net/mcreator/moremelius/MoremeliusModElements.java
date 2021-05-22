@@ -49,6 +49,8 @@ public class MoremeliusModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("moremelius", "lowercavesambience1")));
 		sounds.put(new ResourceLocation("moremelius", "junglecavesambience"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("moremelius", "junglecavesambience")));
+		sounds.put(new ResourceLocation("moremelius", "underwaterambience"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("moremelius", "underwaterambience")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("moremelius").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

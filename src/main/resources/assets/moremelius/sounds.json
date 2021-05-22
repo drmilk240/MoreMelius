@@ -16,5 +16,14 @@
         "stream": false
       }
     ]
+  },
+  "underwaterambience": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "moremelius:water",
+        "stream": false
+      }
+    ]
   }
 }

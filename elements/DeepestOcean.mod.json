@@ -30,7 +30,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:underwaterambience"
     },
     "additionsSound": {
       "value": ""

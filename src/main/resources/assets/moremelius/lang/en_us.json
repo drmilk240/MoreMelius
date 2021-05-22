@@ -6,8 +6,8 @@
   "item.moremelius.the_deep": "The Deep Portal Igniter",
   "block.moremelius.pillar_build": "Pillar Build",
   "biome.moremelius.lower_cave": "Lower Cave",
-  "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
   "block.moremelius.block_cap": "Block Cap",
+  "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
   "biome.moremelius.sandy_caves": "Sandy Caves",
   "block.moremelius.vertical_block_build": "Vertical Block Build",
   "block.moremelius.cave_rift": "Cave Rift",
@@ -16,8 +16,9 @@
   "biome.moremelius.deepest_ocean": "Deepest Ocean",
   "subtitles.lowercavesambience1": "",
   "subtitles.junglecavesambience": "",
-  "block.moremelius.tower_build": "Tower Build",
   "block.moremelius.bridge_build": "Bridge Build",
+  "block.moremelius.tower_build": "Tower Build",
+  "subtitles.underwaterambience": "",
   "biome.moremelius.ruined_city": "Ruined City",
   "block.moremelius.block_build": "Block Build"
 }

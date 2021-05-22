@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:DeepestOcean"
+      },
+      {
+        "value": "CUSTOM:PitchOceans"
       }
     ],
     "worldGenType": "Normal world gen",
