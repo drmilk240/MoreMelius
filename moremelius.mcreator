@@ -305,6 +305,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "deepest_ocean"
+    },
+    {
+      "name": "AquaticDarkDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aquatic_dark_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AquaticDark",
+      "type": "overlay",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aquatic_dark"
     }
   ],
   "variable_elements": [],
