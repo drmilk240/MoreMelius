@@ -332,6 +332,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pitch_oceans"
+    },
+    {
+      "name": "Statue",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue"
     }
   ],
   "variable_elements": [],
@@ -384,6 +393,7 @@
       "itemGroup.tabmore_melius": "More Melius",
       "block.moremelius.bridge_cap": "Bridge Cap",
       "biome.moremelius.deepest_ocean": "Deepest Ocean",
+      "block.moremelius.statue": "Statue",
       "subtitles.lowercavesambience1": "",
       "block.moremelius.tower_build": "Tower Build",
       "subtitles.underwaterambience": "",

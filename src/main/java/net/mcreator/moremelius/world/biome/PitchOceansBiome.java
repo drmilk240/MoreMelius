@@ -72,7 +72,7 @@ public class PitchOceansBiome extends MoremeliusModElements.ModElement {
 				DefaultBiomeFeatures.withFossils(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFossils(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(-1.5999999999999999f).scale(0f)
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(-1.7000000000000002f).scale(0.2f)
 						.temperature(0.5f).downfall(1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("moremelius:pitch_oceans"));
