@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moremelius:blocks/sandstone_bottom",
+    "up": "moremelius:blocks/sandstone_top",
+    "north": "moremelius:blocks/sandstone",
+    "east": "moremelius:blocks/sandstone",
+    "south": "moremelius:blocks/sandstone",
+    "west": "moremelius:blocks/sandstone",
+    "particle": "moremelius:blocks/sandstone_bottom"
+  }
+}

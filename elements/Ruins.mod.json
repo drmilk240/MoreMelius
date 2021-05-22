@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "ruinedblock",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 500000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:LowerCaves"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:RuinedCity"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "RuinsOnStructureInstanceGenerated"
+    }
+  }
+}

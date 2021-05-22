@@ -1,0 +1,381 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MoreMelius",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_melius"
+    },
+    {
+      "name": "SandstoneGold",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandstone_gold"
+    },
+    {
+      "name": "SandyCaves",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandy_caves"
+    },
+    {
+      "name": "LowerCaves",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lower_caves",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "CaveRift",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_rift"
+    },
+    {
+      "name": "CaveRiftEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_rift_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LowerCave",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lower_cave"
+    },
+    {
+      "name": "Silt",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silt"
+    },
+    {
+      "name": "SiltAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silt_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LowerCavesPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lower_caves_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruins",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruins"
+    },
+    {
+      "name": "RuinedCity",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_city"
+    },
+    {
+      "name": "RuinsOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruins_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockBuild",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "PillarBuild",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pillar_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "TowerBuild",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tower_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "HouseBuild",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "house_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "VerticalBlockBuild",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vertical_block_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "BridgeBuild",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bridge_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "ShrineBuild",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shrine_build",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "BlockCap",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_cap",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "BridgeCap",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bridge_cap",
+      "path": "~/RuinedCityGenBlocks"
+    },
+    {
+      "name": "TheDeep",
+      "type": "dimension",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "the_deep",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "DeepTpCommandExecuted",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_tp_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepestOcean",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepest_ocean"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "lowercavesambience1",
+      "files": [
+        "lowercavesambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "junglecavesambience",
+      "files": [
+        "lowercavesjungle"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.moremelius.silt": "Silt",
+      "block.moremelius.sandstone_gold": "Gilded Sandstone",
+      "block.moremelius.house_build": "House Build",
+      "block.moremelius.shrine_build": "Shrine Build",
+      "item.moremelius.the_deep": "The Deep Portal Igniter",
+      "block.moremelius.pillar_build": "Pillar Build",
+      "biome.moremelius.lower_cave": "Lower Cave",
+      "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
+      "block.moremelius.block_cap": "Block Cap",
+      "biome.moremelius.sandy_caves": "Sandy Caves",
+      "block.moremelius.vertical_block_build": "Vertical Block Build",
+      "block.moremelius.cave_rift": "Cave Rift",
+      "itemGroup.tabmore_melius": "More Melius",
+      "block.moremelius.bridge_cap": "Bridge Cap",
+      "biome.moremelius.deepest_ocean": "Deepest Ocean",
+      "subtitles.lowercavesambience1": "",
+      "subtitles.junglecavesambience": "",
+      "block.moremelius.tower_build": "Tower Build",
+      "block.moremelius.bridge_build": "Bridge Build",
+      "biome.moremelius.ruined_city": "Ruined City",
+      "block.moremelius.block_build": "Block Build"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "RuinedCityGenBlocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "moremelius",
+    "modName": "MoreMelius",
+    "version": "1.0.0",
+    "author": "ThatThingTwo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.moremelius",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100116710
+}

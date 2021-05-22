@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SandyCaves"
+      },
+      {
+        "value": "CUSTOM:LowerCave"
+      },
+      {
+        "value": "void"
+      },
+      {
+        "value": "CUSTOM:RuinedCity"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "airColor": {
+      "value": -15329757,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "LowerCavesPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Lower Caves Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

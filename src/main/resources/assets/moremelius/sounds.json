@@ -1,0 +1,20 @@
+{
+  "lowercavesambience1": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "moremelius:lowercavesambience",
+        "stream": false
+      }
+    ]
+  },
+  "junglecavesambience": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "moremelius:lowercavesjungle",
+        "stream": false
+      }
+    ]
+  }
+}

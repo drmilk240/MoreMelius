@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "moremelius:block/block_cap"
+    }
+  }
+}

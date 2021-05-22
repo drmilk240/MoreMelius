@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moremelius:blocks/housebuild",
+    "particle": "moremelius:blocks/housebuild"
+  }
+}
