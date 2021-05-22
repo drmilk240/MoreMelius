@@ -319,7 +319,7 @@
       "name": "AquaticDarkDisplayOverlayIngame",
       "type": "procedure",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "aquatic_dark_display_overlay_ingame",
@@ -346,7 +346,7 @@
       "name": "DarkEncrustedIron",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "dark_encrusted_iron"
@@ -355,7 +355,7 @@
       "name": "EncrustedIron",
       "type": "block",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "encrusted_iron"
@@ -392,6 +392,7 @@
     "en_us": {
       "block.moremelius.silt": "Silt",
       "block.moremelius.sandstone_gold": "Gilded Sandstone",
+      "biome.moremelius.pitch_oceans": "Deepest Ocean",
       "item.moremelius.the_deep": "The Deep Portal Igniter",
       "biome.moremelius.lower_cave": "Lower Cave",
       "block.moremelius.block_cap": "Block Cap",
@@ -406,12 +407,14 @@
       "block.moremelius.shrine_build": "Shrine Build",
       "block.moremelius.pillar_build": "Pillar Build",
       "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
+      "block.moremelius.dark_encrusted_iron": "Encrusted Iron",
       "itemGroup.tabmore_melius": "More Melius",
       "block.moremelius.bridge_cap": "Bridge Cap",
       "biome.moremelius.deepest_ocean": "Deepest Ocean",
       "subtitles.lowercavesambience1": "",
       "block.moremelius.tower_build": "Tower Build",
-      "subtitles.underwaterambience": ""
+      "subtitles.underwaterambience": "",
+      "block.moremelius.encrusted_iron": "Encrusted Iron"
     }
   },
   "foldersRoot": {
