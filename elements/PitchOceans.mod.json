@@ -1,0 +1,110 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Deepest Ocean",
+    "groundBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "airColor": {
+      "value": -15922367,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13937622,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13937622,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -15855806,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16777209,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:underwaterambience"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 100,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "OCEAN",
+    "parent": {
+      "value": "ocean"
+    },
+    "rainingPossibility": 1.0,
+    "temperature": 0.5,
+    "baseHeight": -3.9999999999999996,
+    "heightVariation": 0.0,
+    "biomeType": "COOL",
+    "spawnBiome": false,
+    "biomeWeight": 6,
+    "biomeDictionaryTypes": [
+      "WET",
+      "OCEAN",
+      "WATER"
+    ],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 68,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 14,
+    "gravelPatchesPerChunk": 17,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "COLD",
+    "defaultFeatures": [
+      "Fossils",
+      "Fossils",
+      "Fossils"
+    ],
+    "spawnEntries": []
+  }
+}

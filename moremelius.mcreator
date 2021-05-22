@@ -273,7 +273,7 @@
       "type": "dimension",
       "sortid": 23,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "the_deep",
       "metadata": {
@@ -305,6 +305,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "deepest_ocean"
+    },
+    {
+      "name": "EncrustedIron",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "encrusted_iron"
+    },
+    {
+      "name": "DarkEncrustedIron",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_encrusted_iron"
+    },
+    {
+      "name": "PitchOceans",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitch_oceans"
     }
   ],
   "variable_elements": [],
@@ -324,31 +351,43 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "underwaterambience",
+      "files": [
+        "water"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.moremelius.silt": "Silt",
       "block.moremelius.sandstone_gold": "Gilded Sandstone",
-      "block.moremelius.house_build": "House Build",
-      "block.moremelius.shrine_build": "Shrine Build",
+      "biome.moremelius.pitch_oceans": "Deepest Ocean",
       "item.moremelius.the_deep": "The Deep Portal Igniter",
-      "block.moremelius.pillar_build": "Pillar Build",
       "biome.moremelius.lower_cave": "Lower Cave",
-      "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
       "block.moremelius.block_cap": "Block Cap",
       "biome.moremelius.sandy_caves": "Sandy Caves",
       "block.moremelius.vertical_block_build": "Vertical Block Build",
       "block.moremelius.cave_rift": "Cave Rift",
+      "subtitles.junglecavesambience": "",
+      "block.moremelius.bridge_build": "Bridge Build",
+      "biome.moremelius.ruined_city": "Ruined City",
+      "block.moremelius.block_build": "Block Build",
+      "block.moremelius.house_build": "House Build",
+      "block.moremelius.shrine_build": "Shrine Build",
+      "block.moremelius.pillar_build": "Pillar Build",
+      "item.moremelius.lower_caves": "Lower Caves Portal Igniter",
+      "block.moremelius.dark_encrusted_iron": "Encrusted Iron",
       "itemGroup.tabmore_melius": "More Melius",
       "block.moremelius.bridge_cap": "Bridge Cap",
       "biome.moremelius.deepest_ocean": "Deepest Ocean",
       "subtitles.lowercavesambience1": "",
-      "subtitles.junglecavesambience": "",
       "block.moremelius.tower_build": "Tower Build",
-      "block.moremelius.bridge_build": "Bridge Build",
-      "biome.moremelius.ruined_city": "Ruined City",
-      "block.moremelius.block_build": "Block Build"
+      "subtitles.underwaterambience": "",
+      "block.moremelius.encrusted_iron": "Encrusted Iron"
     }
   },
   "foldersRoot": {
