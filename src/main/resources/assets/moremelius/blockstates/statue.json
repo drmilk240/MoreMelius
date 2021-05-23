@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "moremelius:block/statue"
+    },
+    "facing=east": {
+      "model": "moremelius:block/statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "moremelius:block/statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "moremelius:block/statue",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "moremelius:custom/sunkenstatue",
+  "textures": {
+    "all": "moremelius:blocks/statue",
+    "particle": "moremelius:blocks/statue",
+    "0": "moremelius:blocks/statue"
+  }
+}
