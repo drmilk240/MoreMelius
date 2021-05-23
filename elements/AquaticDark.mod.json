@@ -10,8 +10,47 @@
           "image": "overlay.png",
           "use1Xscale": false,
           "name": "overlay.png",
-          "x": -84,
-          "y": -49
+          "x": -40,
+          "y": -21
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "AquaticDark2"
+          },
+          "name": "overlay.png",
+          "x": -42,
+          "y": -19
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "AquaticQueen3"
+          },
+          "name": "overlay.png",
+          "x": -43,
+          "y": -19
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "AquaticDeep4"
+          },
+          "name": "overlay.png",
+          "x": -43,
+          "y": -21
         }
       }
     ],

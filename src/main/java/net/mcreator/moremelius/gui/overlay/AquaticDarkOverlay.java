@@ -13,7 +13,10 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.moremelius.procedures.AquaticQueen3Procedure;
+import net.mcreator.moremelius.procedures.AquaticDeep4Procedure;
 import net.mcreator.moremelius.procedures.AquaticDarkDisplayOverlayIngameProcedure;
+import net.mcreator.moremelius.procedures.AquaticDark2Procedure;
 import net.mcreator.moremelius.MoremeliusModElements;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -51,7 +54,19 @@ public class AquaticDarkOverlay extends MoremeliusModElements.ModElement {
 			RenderSystem.disableAlphaTest();
 			if (AquaticDarkDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("moremelius:textures/overlay.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -297, posY + -169, 0, 0, 1534, 841, 1534, 841);
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -253, posY + -141, 0, 0, 500, 275, 500, 275);
+				if (AquaticDark2Procedure.executeProcedure(ImmutableMap.of("entity", entity))) {
+					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("moremelius:textures/overlay.png"));
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -255, posY + -139, 0, 0, 500, 275, 500, 275);
+				}
+				if (AquaticQueen3Procedure.executeProcedure(ImmutableMap.of("entity", entity))) {
+					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("moremelius:textures/overlay.png"));
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -256, posY + -139, 0, 0, 500, 275, 500, 275);
+				}
+				if (AquaticDeep4Procedure.executeProcedure(ImmutableMap.of("entity", entity))) {
+					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("moremelius:textures/overlay.png"));
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -256, posY + -141, 0, 0, 500, 275, 500, 275);
+				}
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();
